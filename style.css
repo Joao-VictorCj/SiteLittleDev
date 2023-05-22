@@ -15,7 +15,7 @@
 
 body {
     background-color: var(--fundo);
-    height: 2000px;
+    min-height: 100%;
 }
 
 header {
@@ -27,7 +27,16 @@ header {
     display: block;
     z-index: 99;
 }
-
+footer{
+    background-color: var(--corNav);
+    width: 100%;
+    height: 120px;
+    text-align:center;
+    display: block;
+}
+#logofooter{
+    margin-top: 20px;
+}
 nav,
 h1 {
     display: inline;
@@ -36,6 +45,7 @@ article{
     width: 90%;
     position: relative;
     left: 50%;
+    
     transform: translate(-50%);
     -webkit-transform: translate(-50%);
     -moz-transform: translate(-50%);
@@ -148,7 +158,7 @@ h3{
 
 }
 #img01{
-    background-image: url(/img/fundo.png);
+    background-image: url(/Site/img/fundo.png);
     height: 550px;
     background-attachment: fixed;
     background-size: contain;
